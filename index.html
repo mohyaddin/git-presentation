@@ -16,8 +16,47 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section><h1>Git Tutorial</h1></section>
+				<section>
+					<section>Basic</section>
+					<section>
+						<h3>Git Basics</h3>
+						<ul>
+							<li>Create Branch</li>
+							<li>Commit</li>
+							<li>Amend Commit</li>
+							<li>push</li>
+							<li>pull</li>
+							<li>clone</li>
+							<li>or even fork</li>
+						</ul>
+					</section>
+					<section><p>now we ignore this part</p></section>
+
+				</section>
+				<!-- Slides are separated by regexp matching newline + three dashes + newline, vertical slides identical but two dashes -->
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+					<script type="text/template">
+						## Git Hooks
+						Description
+
+						--
+
+						## Demo 2
+						Slide 1.2
+
+						---
+
+						## Cherry Pick
+						Slide 2
+
+						---
+
+						## merge vs rebase
+						Description
+
+					</script>
+				</section>
 			</div>
 		</div>
 
